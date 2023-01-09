@@ -1,0 +1,119 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+ background: linear-gradient(to right, #A100FFFF, #119CFDFF);
+ 
+ 
+ 
+   }
+   
+   h1{
+       font-size: 40px;
+       font-weight: 900px;
+       font-family: arial;
+       color: #fff;
+       margin-top: 60px;
+       text-align: center;
+   }
+
+   .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(247, 245, 245);
+    box-shadow:   0 0 10px 5px rgb(26, 248, 5);
+    border-radius: 14px;
+    padding-bottom: 20px;
+    width: 340px;
+    
+
+   }
+   .display {
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+   
+    background-color: #d479e0;
+    color: #ff5f6d;
+   }
+   .buttons {
+    padding: 20px 20px 0 20px;
+    
+    
+   
+   }
+   .row {
+    width: 280px;
+    float: left;
+   }
+   input[type=button] {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    background: #ecedef;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: #5E5858;
+    cursor: pointer;
+
+   }
+   input[type=text] {
+    width: 270px;
+    height: 60px;
+    float: left;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    color: #ffffff;
+    text-align: right;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 25px;
+
+   }
+  
+   .dark-mode {
+   
+ color: white;
+    background: linear-gradient(to right,#2C3E50 , #000000);
+    
+   
+   }
+
+   .btn:hover {
+    box-shadow: 2px 4px 2px rgb(17, 1, 1);
+    background-color: rgb(241, 16, 204);
+   }
+
+   .dark {
+    background-color: black;
+    color: blue;
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+    border: 2px solid rgb(252, 27, 27);
+    
+   }
+   #result {
+    color: black;
+    font-size: 32px;
+   }
+   .btn {
+    box-shadow: 2px 4px 5px rgb(6, 233, 233);
+    
+   }
